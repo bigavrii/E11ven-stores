@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>The Eleven</title>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+
+  <nav class="bg-white sticky-top shadow-sm">
+    <div class="container d-flex">
+      <div class="col col-md-1">
+        <a href="/index.html"><img class="navbar-brand" src="/img/logo.svg" alt="Logo" height="80"></a>
+      </div>
+      <div class="col-md">
+        <div class="container media p-4" style="width: 80%;">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="What are you looking for" aria-label="Search">
+            <button class="btn shadow" type="button">
+              <span class="material-symbols-rounded d-flex">search</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex align-items-center text-center">
+        <span class="tt" data-bs-placement="bottom" title="See the products you are yet to make payment for"><a
+            class="nav-link icon-hover me-4" href="/account.html"><span class="material-symbols-rounded">
+              person</span>
+            <span class="media"><br> My Account</span></a></span>
+
+        <span class="tt" data-bs-placement="bottom" title="See the preoducts you are yet to make payment for"><a
+            class="nav-link icon-hover me-4" href="/cart.html"><span class="material-symbols-rounded">
+              add_shopping_cart</span>
+            <span class="media"><br> Shopping Cart</span></a></span>
+
+        <span class="tt" data-bs-placement="bottom" title="The list of products you looking forward to owning soon"><a
+            class="nav-link icon-hover me-4" href="/wishlist.html"><span class="material-symbols-rounded">
+              favorite</span>
+            <span class="media"><br> Wish List</span></a></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Primary NavBar -->
+
+  <nav class="navbar navbar-expand-lg bg-white p-3 no-mobile">
+    <div class="container primary-nav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav second-section">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tech
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="/laptops.html">Laptops</a></li>
+              <li><a class="dropdown-item" href="">Computer</a></li>
+              <li><a class="dropdown-item" href="">Drones</a></li>
+              <li><a class="dropdown-item" href="">Robot Art</a></li>
+              <li><a class="dropdown-item" href="">Mobile Phones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home & Garden
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Crafts</a></li>
+              <li><a class="dropdown-item" href="">Interior Decoration</a></li>
+              <li><a class="dropdown-item" href="">Toys</a></li>
+              <li><a class="dropdown-item" href="">Workshop Tools</a></li>
+              <li><a class="dropdown-item" href="">Art Supplies</a></li>
+              <li><a class="dropdown-item" href="">Jewelry and Beads</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sports
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="/shoes.html">Shoes</a></li>
+              <li><a class="dropdown-item" href="">Pants</a></li>
+              <li><a class="dropdown-item" href="">Gym</a></li>
+              <li><a class="dropdown-item" href="">Female Wears</a></li>
+              <li><a class="dropdown-item" href="">Male Wears</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Automobiles
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Wagons</a></li>
+              <li><a class="dropdown-item" href="">Motorcycles</a></li>
+              <li><a class="dropdown-item" href="">Deals</a></li>
+              <li><a class="dropdown-item" href="">Trucks</a></li>
+              <li><a class="dropdown-item" href="">Convertibles</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="">Body</a></li>
+              <li><a class="dropdown-item" href="">Gps Trackers</a></li>
+              <li><a class="dropdown-item" href="">Engine and Parts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grocery
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Cleaning Spplies</a></li>
+              <li><a class="dropdown-item" href="">Food Stuffs</a></li>
+              <li><a class="dropdown-item" href="">Medical Supplies</a></li>
+              <li><a class="dropdown-item" href="">Canned Meals</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Toys & Entertainment
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Adult Shop</a></li>
+              <li><a class="dropdown-item" href="">Children Shop</a></li>
+              <li><a class="dropdown-item" href="">Comic Books</a></li>
+              <li><a class="dropdown-item" href="">Movie Tickets</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kiddos
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Books</a></li>
+              <li><a class="dropdown-item" href="">Kids Clothing</a></li>
+              <li><a class="dropdown-item" href="">Robotics</a></li>
+              <li><a class="dropdown-item" href="">Toys</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gaming
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Play Station</a></li>
+              <li><a class="dropdown-item" href="">Virtual Reality</a></li>
+              <li><a class="dropdown-item" href="">Outdoor Games</a></li>
+              <li><a class="dropdown-item" href="">Indoor Games</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Health & Beauty
+            </a>
+            <ul class="dropdown-menu p-2 border-0">
+              <li><a class="dropdown-item" href="">Vitamins</a></li>
+              <li><a class="dropdown-item" href="">Health Care</a></li>
+              <li><a class="dropdown-item" href="">Anti-aging</a></li>
+              <li><a class="dropdown-item" href="">Sports Nutrition</a></li>
+              <li><a class="dropdown-item" href="">Skin Products</a></li>
+              <li><a class="dropdown-item" href="">Spa</a></li>
+              <li><a class="dropdown-item" href="">Sexual Wellness</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Primary Navbar On Mobile -->
+
+  <nav class="navbar bg-white mobile">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <img src="/img/logo.svg" alt="Logo" height="80">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tech
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="/laptops.html">Laptops</a></li>
+                <li><a class="dropdown-item" href="">Computer</a></li>
+                <li><a class="dropdown-item" href="">Drones</a></li>
+                <li><a class="dropdown-item" href="">Robot Art</a></li>
+                <li><a class="dropdown-item" href="">Mobile Phones</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home & Garden
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Crafts</a></li>
+                <li><a class="dropdown-item" href="">Interior Decoration</a></li>
+                <li><a class="dropdown-item" href="">Toys</a></li>
+                <li><a class="dropdown-item" href="">Workshop Tools</a></li>
+                <li><a class="dropdown-item" href="">Art Supplies</a></li>
+                <li><a class="dropdown-item" href="">Jewelry and Beads</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sports
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="/shoes.html">Shoes</a></li>
+                <li><a class="dropdown-item" href="">Pants</a></li>
+                <li><a class="dropdown-item" href="">Gym</a></li>
+                <li><a class="dropdown-item" href="">Female Wears</a></li>
+                <li><a class="dropdown-item" href="">Male Wears</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Automobiles
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Wagons</a></li>
+                <li><a class="dropdown-item" href="">Motorcycles</a></li>
+                <li><a class="dropdown-item" href="">Deals</a></li>
+                <li><a class="dropdown-item" href="">Trucks</a></li>
+                <li><a class="dropdown-item" href="">Convertibles</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="">Body</a></li>
+                <li><a class="dropdown-item" href="">Gps Trackers</a></li>
+                <li><a class="dropdown-item" href="">Engine and Parts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Grocery
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Cleaning Spplies</a></li>
+                <li><a class="dropdown-item" href="">Food Stuffs</a></li>
+                <li><a class="dropdown-item" href="">Medical Supplies</a></li>
+                <li><a class="dropdown-item" href="">Canned Meals</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Toys & Entertainment
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Adult Shop</a></li>
+                <li><a class="dropdown-item" href="">Children Shop</a></li>
+                <li><a class="dropdown-item" href="">Comic Books</a></li>
+                <li><a class="dropdown-item" href="">Movie Tickets</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kiddos
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Books</a></li>
+                <li><a class="dropdown-item" href="">Kids Clothing</a></li>
+                <li><a class="dropdown-item" href="">Robotics</a></li>
+                <li><a class="dropdown-item" href="">Toys</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gaming
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Play Station</a></li>
+                <li><a class="dropdown-item" href="">Virtual Reality</a></li>
+                <li><a class="dropdown-item" href="">Outdoor Games</a></li>
+                <li><a class="dropdown-item" href="">Indoor Games</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Health & Beauty
+              </a>
+              <ul class="dropdown-menu p-2 border-0">
+                <li><a class="dropdown-item" href="">Vitamins</a></li>
+                <li><a class="dropdown-item" href="">Health Care</a></li>
+                <li><a class="dropdown-item" href="">Anti-aging</a></li>
+                <li><a class="dropdown-item" href="">Sports Nutrition</a></li>
+                <li><a class="dropdown-item" href="">Skin Products</a></li>
+                <li><a class="dropdown-item" href="">Spa</a></li>
+                <li><a class="dropdown-item" href="">Sexual Wellness</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Search Box Mobile-->
+
+  <section class="bg-white mobile sticky-top">
+    <div class="container col p-4" style="width: 80%;">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="What are you looking for" aria-label="Search">
+        <button class="btn shadow" type="button">
+          <span class="material-symbols-rounded d-flex">search</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href=""><img src="/img/template 1.svg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="/img/food card.svg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="/img/template 3.svg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="/img/template 4.svg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="₦carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="₦carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Rounded Images -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h4>By Popular Demand</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="scroll">
+    <div class="container">
+      <div class="">
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img1.png"
+              alt="">
+            <p>Yeezy Hoods</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img1-1.png"
+              alt="">
+            <p>Shoes</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img1-2.png"
+              alt="">
+            <p>Cosmetics</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img1-3.png"
+              alt="">
+            <p>Human Hair</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img5.png"
+              alt="">
+            <p>Virtual Reality</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img6.png"
+              alt="">
+            <p>Video Games</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img7.png"
+              alt="">
+            <p>Jewelry</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img8.png"
+              alt="">
+            <p>Smartphones</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img9.png"
+              alt="">
+            <p>Sunglasses</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img10.svg"
+              alt="">
+            <p>Cars</p>
+          </a>
+        </div>
+        <div class="box">
+          <a class="nav-link mt-2" href=""><img class="rounded-circle img-fluid-rounded" src="/img/Rounded img11.svg"
+              alt="">
+            <p>Gas Cooker</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h4>Top Picks For You</h4>
+        </div>
+        <div class="col-4 text-end">
+          <a class="nav-link fs-6" href="">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4">
+        <div class="col bg-white">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href=""><img src="/img/oreo cookie.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/necklace.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/home theater.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/airpods.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/travel bag.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/shoe 1.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="₦carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="₦carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/shoe 1.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦129,999 <span
+                    class="text-decoration-line-through fw-light">₦130,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Pink Jules Graphic Print Italian
+              </p></a>
+              <p class="promo text-white">Up to 2% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/oreo cookie.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html"> ₦ 7,999 <span
+                    class="text-decoration-line-through fw-light"> ₦ 9,000</span></h5>
+              <p class="card-text mt-1 promo-hov"> Oreo Chocolate Sandwich Cookies
+              </p></a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/travel bag.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦67,999 <span
+                    class="text-decoration-line-through fw-light">₦70,000</span></h5>
+              <p class="card-text mt-1 promo-hov">PU leather Duffel Bag Super...
+              </p></a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <section>
+    <div class="container mt-5">
+      <div class="row gap-2">
+        <div class="col-md col-4 bg-white shoe-intro text-center shadow-sm">
+          <img src="/img/quality emblem.svg" alt="" style="width: 20%;"> Quality Products
+        </div>
+        <div class="col-md col bg-white shoe-intro text-center shadow-sm">
+          <img src="/img/delivery.svg" alt="" style="width: 20%;"> Fast Delivery
+        </div>
+        <div class="col-md col bg-white shoe-intro text-center shadow-sm">
+          <img src="/img/offers.png" alt="" style="width: 20%;"> Easy Returns
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- October Deals  -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-9">
+          <h4>October to Remember</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-6 shadow-sm p-2 bg-white">
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/laptop 1.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦207,000 <span
+                  class="text-decoration-line-through fw-light">₦210,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Hp Stream 14-AMD QUAD CORE- 32GB HDD 4GB RAM</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/Top picks 2.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦9,000 <span
+                  class="text-decoration-line-through fw-light">₦9,500</span></h5>
+            <p class="card-text mt-1 promo-hov">For Airpods Max Earphone Case Soft Silicon Protective Cover</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/water pack.jpg" height="80%" width="95%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦3,999 <span
+                  class="text-decoration-line-through fw-light">₦4,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Cway Drinking Water 750ml x12</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/golden morn.jpg" height="80%" width="94%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦900,000 <span
+                  class="text-decoration-line-through fw-light">₦990,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Nestle Golden Morn - 45g X 10 X 9(Carton) </p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/Top picks 4.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦280,000 <span
+                  class="text-decoration-line-through fw-light">₦288,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Apple Watch Series 7 GPS 41mm Blue Aluminium Sport Band</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/grinder.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦900,000 <span
+                  class="text-decoration-line-through fw-light">₦990,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Silver Crest Industrial Food Crusher & Blender + Extra Mill Jar</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sports Activities -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h4>Sports Center</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 bg-white">
+        <div class="col-6 align-self-center promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <img src="/img/sports 5.jpg" style="height: 100%;" width="100%" alt="img_from_the_11_stores">
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="">₦36,999 <span
+                    class="text-decoration-line-through fw-light">₦37,000</span></h5>
+              <p class="card-text mt-1 promo-hov">20kg Adjustable Dumbell Set With Case Of 10kg Each Hand</p></a>
+              <p class="promo text-white">Up to 1% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <img src="/img/sports 2.webp" style="height: 100%;" width="100%" alt="img_from_the_11_stores">
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="">₦900,999 <span
+                    class="text-decoration-line-through fw-light">₦990,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Sole Rowing Machine For Home And Gym Workout</p></a>
+              <p class="promo text-white">Up to 10% off</p>
+            </div>
+          </div>
+        </div>
+        <!-- Video -->
+        <div class="col-md-6 col-12">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <video class="img-fluid" autoplay loop muted>
+                <source src="/E11ven stores.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Over 5,000 shoes sold everyday.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-white">
+        <div class="col align-self-center promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/sports 4.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="">₦5,000 <span
+                    class="text-decoration-line-through fw-light">₦10,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Gym Gloves Weight Lifting Gym Gloves
+              </p></a>
+              <p class="promo text-white">Up to 20% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/sports 3.webp" style="height: 80%;" width="70%" alt="football_boots">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="">₦11,000 <span
+                    class="text-decoration-line-through fw-light">₦12,000</span></h5>
+              <p class="card-text mt-1 promo-hov">SPORT Men X Football Boot</p></a>
+              <p class="promo text-white">Up to 2% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/sports 6.jpg" style="height: 80%;" width="60%" alt="arm shaper">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="">₦5,000 <span
+                    class="text-decoration-line-through fw-light">₦6,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Freestanding Punching Bag 70''-205lbs with Boxing Gloves </p></a>
+              <p class="promo text-white">Up to 10% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col align-self-center promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/sports 7.jpg" style="height: 80%;" width="70%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="">₦15,000 <span
+                    class="text-decoration-line-through fw-light">₦30,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Men's Regular Sports Track Pant</p></a>
+              <p class="promo text-white">Up to 50% off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movies -->
+
+  <section>
+    <div class="container mt-5" style="background-color: #0598FB;">
+      <div class="row">
+        <div class="col text-center text-white">
+          <h4 class="p-1">Movie Date</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container bg-white shadow-sm">
+      <div class="row row-cols-md-4 row-cols-2 g-1">
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="rounded-2" src="/img/movie 1.jpg" height="100%" width="100%">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="rounded-2" src="/img/movies 2.jpg" height="100%" width="100%">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="rounded-2" src="/img/movie 3.jpg" height="100%" width="100%">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="rounded-2" src="/img/movie 4.jpg" height="100%" width="100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h4>Digital Deals</h4>
+        </div>
+        <div class="col text-end">
+          <a class="nav-link fs-6" href="">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 ">
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/camera.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦29,999 <span
+                    class="text-decoration-line-through fw-light">₦30,000</span></h5>
+              <p class="card-text mt-1 promo-hov">1.3 Mega Pixel HD DV SLR Camera, 2.4 Inch LCD, Full HD</p>
+              </a>
+              <p class="promo text-white">Up to 2% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/ipad.webp" style="height: 60%;" width="100%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html"> ₦ 7,999 <span
+                    class="text-decoration-line-through fw-light"> ₦ 9,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Apple Ipad Pro 11" M1 (2021 Model) With Wi-fi Only - 128gb</p>
+              </a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/ring light.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦129,999 <span
+                    class="text-decoration-line-through fw-light">₦130,000</span></h5>
+              <p class="card-text mt-1 promo-hov">
+                Markets NG
+                12 Inches 33CM Ring Light With Stand | Markets NG</p>
+              </a>
+              <p class="promo text-white">Up to 2% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href=""><img src="/img/laptop 1.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/ring light.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/camera.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/glasses.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="₦carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="₦carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contentes -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-9">
+          <h4>Epic Holiday Deals</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-6 shadow-sm p-2 bg-white">
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/cake.webp" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦17,000 <span
+                  class="text-decoration-line-through fw-light">₦18,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Chocolate Cake with Strawberry Creamy Delicious</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/gown.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦2,000 <span
+                  class="text-decoration-line-through fw-light">₦2,900</span></h5>
+            <p class="card-text mt-1 promo-hov">Lingerie Night Wear Sexy Gown- Blue SPAG</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/duvet.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦20,999 <span
+                  class="text-decoration-line-through fw-light">₦22,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Duvet cover set of 3 with thin white striped</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/water gun.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦2200 <span
+                  class="text-decoration-line-through fw-light">₦3,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Water Gun Squirt Guns High Capacity 2000CC</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/cream.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦4,000 <span
+                  class="text-decoration-line-through fw-light">₦6,500</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              E45 Dermatological Moisturising Lotion</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/clipper.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦7,000 <span
+                  class="text-decoration-line-through fw-light">₦9,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Rechargeable Hair clipper</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book Store -->
+
+  <section>
+    <div class="container mt-5" style="background-color: orange;">
+      <div class="row">
+        <div class="col text-center">
+          <h4 class="p-1">Trending Novels</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container bg-white shadow-sm">
+      <div class="row row-cols-md-6 row-cols-3 g-1">
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 1.jpg">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 2.jpg">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 7.jpg">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 4.jpg">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 6.jpg">
+          </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 3.jpg" height="100%" width="100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perfume Section -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h4>
+            Perfume Store
+          </h4>
+        </div>
+        <div class="col text-end">
+          <a class="nav-link fs-6" href="">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 ">
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/perfume 5.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦590,999 <span
+                    class="text-decoration-line-through fw-light">₦599,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Boadicea The Victorious Blue Sapphire EDP 100ml Perfume</p>
+              </a>
+              <p class="promo text-white">Up to 10% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/perfume 3.jpg" style="height: 60%;" width="65%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html"> ₦ 3,500<span
+                    class="text-decoration-line-through fw-light"> ₦ 3,900</span></h5>
+              <p class="card-text mt-1 promo-hov">Fragrance World Barakkat Oud Eau De Parfum</p>
+              </a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/perfume 4.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦369,000 <span
+                    class="text-decoration-line-through fw-light">₦370,000</span></h5>
+              <p class="card-text mt-1 promo-hov">
+                Creed VIKING EDP 100ML PERFUME FOR HIM</p>
+              </a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/gucci intense oud.jpg" style="height: 60%;" width="50%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦19,999 <span
+                    class="text-decoration-line-through fw-light">₦20,000</span></h5>
+              <p class="card-text mt-1 promo-hov">
+                Gucci Fragrance Oud Touch Perfume EDP Men- 25ml</p>
+              </a>
+              <p class="promo text-white">Up to 1% off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Another Section -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-9">
+          <h4>Priceless<span class="fw-lighter fs-6"><br> Selected from search history</span> </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 ">
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/wig.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦5,999 <span
+                    class="text-decoration-line-through fw-light">₦6,100</span></h5>
+              <p class="card-text mt-1 promo-hov">Natural Virgin Hair Short Straight Closure Bob Wig</p>
+              </a>
+              <p class="promo text-white">Up to 1% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/car.webp" style="height: 60%;" width="80%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html"> ₦ 38,250,500<span
+                    class="text-decoration-line-through fw-light"> ₦ 40,100,000</span></h5>
+              <p class="card-text mt-1 promo-hov">2021 Jeep Gladiator Sport trim, a 6-speed manual transmission</p>
+              </a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/yeezy.jpeg" style="height: 60%;" width="70%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦30,000 <span
+                    class="text-decoration-line-through fw-light">₦37,000</span></h5>
+              <p class="card-text mt-1 promo-hov">
+                Laceless adidas Yeezy Boost 700</p>
+              </a>
+              <p class="promo text-white">Up to 12% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/bedstand.jpg" style="height: 60%;" width="70%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦80,999 <span
+                    class="text-decoration-line-through fw-light">₦90,000</span></h5>
+              <p class="card-text mt-1 promo-hov">
+                Simple Modern Bed Frame</p>
+              </a>
+              <p class="promo text-white">Up to 0% off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Veg and Fruit Section -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-9">
+          <h4>Fruits and Vegetables</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-6 shadow-sm p-2 bg-white">
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/almond seed.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦5,000 <span
+                  class="text-decoration-line-through fw-light">₦6,500</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Trs Almond Seeds - 3 Packs 100g</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/veg oil.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦21,000 <span
+                  class="text-decoration-line-through fw-light">₦21,900</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Devon King'S Kings Vegetable Cooking Oil
+            </p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="img/grape.jpg" height="80%" width="90%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦8,999 <span
+                  class="text-decoration-line-through fw-light">₦9,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              A Full Bunch of Sweet Grape</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/fruits.png" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦20,200 <span
+                  class="text-decoration-line-through fw-light">₦23,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Variety of Natural Fruits in Basket</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/ugu.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦9,00 <span
+                  class="text-decoration-line-through fw-light">₦1,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Hand full of fluted pumpkin</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/fruit machine.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦7,000 <span
+                  class="text-decoration-line-through fw-light">₦8,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Heavy Duty Manual Fruit Presser</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Random Selections -->
+
+  <section>
+    <div class="container mt-5 text-white" style="background-color: #0598FB;">
+      <div class="row">
+        <div class="col text-center">
+          <h4 class="p-1">Toys and Games</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container bg-white shadow-sm">
+      <div class="row row-cols-md-6 row-cols-3 g-1">
+        <div class="col text-center">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/chess.webp">
+            <div class="mt-3"><h6>Chess Game</h6></div>
+          </a>
+        </div>
+        <div class="col text-center">
+          <a class="nav-link mt-2" href=""><img style="width: 86%;" src="/img/rubik cube.webp">
+            <div><h6 class="mt-3">Rubik Cube</h6></div>
+          </a>
+        </div>
+        <div class="col text-center">
+          <a class="nav-link mt-2" href=""><img style="width: 51%;" src="/img/toy 1.jpg">
+            <div><h6 class="mt-3">Squigz</h6></div>
+          </a>
+        </div>
+        <div class="col text-center">
+          <a class="nav-link mt-2" href=""><img style="width: 64%;" src="/img/toy 2.jpg">
+            <div><h6 class="mt-3">Tech Advisor (Toy)</h6></div>
+          </a>
+        </div>
+        <div class="col text-center">
+          <a class="nav-link mt-2" href=""><img style="width: 78%;" src="/img/ludo.webp">
+            <div><h6 class="mt-3">Modern Ludo</h6></div>
+          </a>
+        </div>
+        <div class="col text-center">
+          <a class="nav-link mt-2" href=""><img style="width: 78%;" src="/img/toy 3.jpg">
+            <div><h6 class="mt-3">Robotic Dog</h6></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+
+  <button id="mybtn" title="go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </svg>
+  </button>
+
+
+  <section class=" mt-5 pt-5" style="background-color: #010101;">
+    <div class="container text-white">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col">
+          <h6>Hello there,The E11ven Stores would love to keep in touch.</h6>
+        </div>
+        <div class="col">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="background-color: white;" type="search" placeholder="Enter your email address" aria-label="Search">
+            <button class="btn shadow fw-bold" type="button">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4 py-4 text-white">
+      <div class="row row-cols-2 row-cols-md-4">
+        <div class="col">
+          <h5 class="">Get to Know Us</h5>
+          <a href="" class="nav-link">
+            <p class="">Careers</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Our News Letter</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>About Us</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Investors</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Branches</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Sustainability</p>
+          </a>
+        </div>
+        <div class="col">
+          <h5 class="">Make Money with Us</h5>
+          <a href="" class="nav-link">
+            <p>Sell Products on E11ven</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Supply to Us</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Become an Affiliate</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Become a Delivery Agent</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Self-Publish with Us</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>The E11ven Packages</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Become a Logistics Partner</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Become an Official</p>
+          </a>
+        </div>
+        <div class="col">
+          <h5 class="">Exclusives</h5>
+          <a href="" class="nav-link">
+            <p>Become a Sales Consultant</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Own an Official Store</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Manage our Store</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Promotional Agent</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Become Our Ambassador</p>
+          </a>
+        </div>
+        <div class="col">
+          <h5 class="">Let Us Help You</h5>
+          <a href="" class="nav-link">
+            <p>Covid 19 Package</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Your Account</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Your Orders</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Report a Seller</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Suggest Improvements</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Return and Replace</p>
+          </a>
+          <a href="" class="nav-link">
+            <p>Safety</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md ">
+          <h6 class="">Follow Us on Our Socials</h6>
+          <div>
+            <a href=""><img src="/img/ig svg.svg" width="2%" alt=""></a>
+            <a href="https://www.linkedin.com/in/ugochukwu-iroka-96a594232"><img src="/img/linkedin svg.svg" width="2%"
+                alt=""></a>
+            <a href=""><img src="/img/tiktok svg.svg" width="2%" alt=""></a>
+            <a href="https://twitter.com/Your_fav_oracle/photo"><img src="/img/twitter svg.svg" width="2%" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="mx-auto">
+      <div class="footer-copyright py-2 text-center">
+        <p>&copy; 2022 <a href="#">The E11ven Stores.</a><a href="#" class="ms-3">Terms Of Use</a><a href="#"
+            class="ms-3">Privacy & Policy.</a> All Right Reserved</p>
+        <p class="fs-6">Designed & Developed by Iroka Ugo</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+</body>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.min.js"> </script>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"> </script>
+<script src="/bootstrap-5.2.0-dist/js/jquery-3.2.1.min.js"></script>
+<script>
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $('#mybtn').fadeIn('slow');
+    }
+    else {
+      $('#mybtn').fadeOut('slow');
+    }
+  });
+
+  $('#mybtn').click(function () {
+    $('html,body').animate({ scrollTop: 0 }, "slow");
+    return false;
+  })
+</script>
+
+</html>

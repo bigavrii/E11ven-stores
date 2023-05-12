@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>Shoes</title>
+</head>
+
+<body>
+
+  
+    <!-- NavBar --> 
+
+  <nav class="bg-white sticky-top shadow-sm">
+    <div class="container d-flex">
+        <div class="col col-md-1">
+          <a href="/index.html"><img class="navbar-brand" src="/img/logo.svg" alt="Logo" height="80"></a>
+        </div>
+      <div class="col-md">
+        <div class="container media p-4" style="width: 80%;">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="What are you looking for" aria-label="Search">
+            <button class="btn shadow" type="button">
+              <span class="material-symbols-rounded d-flex">search</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex align-items-center text-center">
+        <span class="tt" data-bs-placement="bottom" title="See the products you are yet to make payment for"><a class="nav-link icon-hover me-4" href="/account.html"><span class="material-symbols-rounded">
+          person</span>
+          <span class="media"><br> My Account</span></a></span>
+
+        <span class="tt" data-bs-placement="bottom" title="See the preoducts you are yet to make payment for"><a class="nav-link icon-hover me-4" href="/cart.html"><span class="material-symbols-rounded">
+          add_shopping_cart</span>
+          <span class="media"><br> Shopping Cart</span></a></span>
+
+        <span class="tt" data-bs-placement="bottom" title="The list of products you looking forward to owning soon"><a class="nav-link icon-hover me-4" href="/wishlist.html"> <span class="material-symbols-rounded">
+          favorite</span>
+          <span class="media"><br> Wish List</span></a></span>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Breadcrumbs -->
+
+	<div class="container mt-3">
+		<div class="row">
+				<nav
+					style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+					aria-label="breadcrumb">
+					<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+							<li class="breadcrumb-item"><a href="/product.html">Sports</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Shoes</li>
+					</ol>
+				</nav>
+		</div>
+	</div>
+  
+  <!--  Video -->
+  <div
+    id="carouselVideoExample"
+    class="carousel"
+    data-mdb-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <video class="img-fluid" autoplay loop muted>
+        <source src="/E11ven stores.mp4"  type="video/mp4" />
+      </video>
+    </div>
+    <div class="carousel-caption d-none d-md-block">
+			<h5>Over 5,000 shoes sold everyday.</h5>
+		</div>
+  </div>
+
+  <!-- Intro -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row gap-2">
+        <div class="col-md col-4 bg-white shoe-intro text-center shadow-sm">
+          <img src="/img/quality emblem.svg"  alt="" style="width: 20%;"> Quality Shoes
+        </div>
+        <div class="col-md col bg-white shoe-intro text-center shadow-sm">
+          <img src="/img/delivery.svg"  alt="" style="width: 20%;"> Fast Delivery
+        </div>
+        <div class="col-md col bg-white shoe-intro text-center shadow-sm">
+          <img src="/img/offers.png"  alt="" style="width: 20%;"> Easy Returns
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Shoe Collection -->
+
+  <section>
+    <div class="container mt-4">
+      <div class="row gap-2">
+        <div class="col-md-3 bg-white p-4">
+          <h6>Featured Shop</h6>
+          <div class="text-muted">
+            <a class="nav-link" href=""> Kids only</a>
+            <a class="nav-link" href=""> Adult shoe</a>
+            <a class="nav-link" href=""> Random picks</a>
+            <a class="nav-link" href=""> The nike spirit</a>
+            <a class="nav-link" href=""> Good sport</a>
+          </div>
+          <div class="d-flex mt-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                XXL
+              </label>
+            </div>
+            <div class="form-check ms-3">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Large
+              </label>
+            </div>
+            <div class="form-check ms-3">
+              <input class="form-check-input" type="checkbox" value="" id="" checked>
+              <label class="form-check-label" for="">
+                Medium
+              </label>
+            </div>
+          </div>
+
+          <h6 class="mt-4">Gym Selections</h6>
+          <div class="text-muted">
+            <a class="nav-link" href=""> Reebok nano X2</a>
+            <a class="nav-link" href=""> Ryka myriad</a>
+            <a class="nav-link" href=""> Adidas powerlift</a>
+            <a class="nav-link" href=""> Nike free metcon</a>
+            <a class="nav-link" href=""> Good sport umbro</a>
+          </div>
+          <h6 class="mt-4">Gym Selections</h6>
+          <div class="text-muted">
+            <a class="nav-link" href=""> Reebok nano X2</a>
+            <a class="nav-link" href=""> Ryka myriad</a>
+            <a class="nav-link" href=""> Adidas powerlift</a>
+            <a class="nav-link" href=""> Nike free metcon</a>
+            <a class="nav-link" href=""> Good sport umbro</a>
+          </div>
+
+          <h6 class="mt-4">Most Trending</h6>
+          <div class="text-muted">
+            <a class="nav-link" href=""> Nike zoom</a>
+            <a class="nav-link" href=""> Air jordan</a>
+            <a class="nav-link" href=""> Louis Vuitton</a>
+            <a class="nav-link" href=""> Yzy Boots</a>
+            <a class="nav-link" href=""> Marni x Veja</a>
+          </div>
+        </div>
+
+        <div class="col-md bg-white shadow-sm" style="height: fit-content;">
+          <div class="d-flex">
+            <div class="col-6 col-md bg-white promo-hov">
+              <div class="card box-effect border-0 mt-2 p-2" >
+                <div class="text-center">
+                  <img src="/img/shoe 1.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦129,999 <span class="text-decoration-line-through fw-light">₦130,000</span></h5>
+                  <p class="card-text mt-1 promo-hov">Pink Jules Graphic Print Italian
+                  </p></a>
+                  <p class="promo text-white">Up to 2% off</p>
+                </div>
+              </div> 
+              <div class="card box-effect border-0 mt-2 p-2" >
+                <div class="text-center">
+                  <img src="/img/high hill.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦10,999 <span class="text-decoration-line-through fw-light">₦15,000</span></h5>
+                  <p class="card-text mt-1 promo-hov">Female High Hill Shoe Brown
+                  </p></a>
+                  <p class="promo text-white">Up to 10% off</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="col-6 col-md bg-white promo-hov">
+              <div class="card box-effect border-0 mt-2 p-2" >
+                <div class="text-center">
+                  <img src="/img/sports 3.webp" style="height: 60%;" width="60%" alt="...">
+                <div class="card-body">
+                  <div class="text-start">
+                    <h5 class="card-title"><a class="nav-link" href="/product.html">₦13,000 <span
+                      class="text-decoration-line-through fs-6 fw-light">₦13,999</span></h5>
+                  <p class="card-text mt-1 promo-hov">SPORT Men X Football Boot
+                  </p></a>
+                <p class="promo text-white">Up to 10% off</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="card box-effect border-0 mt-2 p-2" >
+                <div class="text-center">
+                  <img src="/img/shoe 3.webp" style="height: 60%;" width="90%" alt="...">
+                <div class="card-body">
+                  <div class="text-start">
+                  <h5 class="card-title"><a class="nav-link" href="/product.html">₦30,000 <span
+                        class="text-decoration-line-through fs-6 fw-light">₦40,999</span></h5>
+                    <p class="card-text mt-1 promo-hov"> Adidas White and Black Shoe For All Gender (Unisex)
+                    </p></a>
+                    <p class="promo text-white">Up to 30% off</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-md bg-white promo-hov no-mobile">
+              <div class="card box-effect border-0 mt-2 p-2" >
+                <div class="text-center">
+                  <img src="/img/shoe 2.jpg" style="height: 60%;" width="60%" alt="...">
+                <div class="card-body">
+                  <div class="text-start">
+                    <h5 class="card-title"><a class="nav-link" href="/product.html">₦25,999 <span
+                      class="text-decoration-line-through fs-6 fw-light">₦30,999</span></h5>
+                  <p class="card-text mt-1 promo-hov">All Purpose Shoe Corporate
+                  </p></a>
+                <p class="promo text-white">Up to 20% off</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="card box-effect border-0 mt-2 p-2" >
+                <div class="text-center">
+                  <img src="/img/shoe 4.webp" style="height: 60%;" width="100%" alt="...">
+                <div class="card-body">
+                  <div class="text-start">
+                  <h5 class="card-title"><a class="nav-link" href="/product.html">₦5,000 <span
+                        class="text-decoration-line-through fs-6 fw-light">₦10,000</span></h5>
+                    <p class="card-text mt-1 promo-hov"> Female Leather High Hill Black and Ox-blood
+                    </p></a>
+                    <p class="promo text-white">Up to 50% off</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-9">
+          <h4>Top Picks For You</h4>
+        </div>
+        <div class="col text-end">
+          <a class="nav-link fs-6" href="">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 ">
+        <div class="col bg-white">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href=""><img src="/img/oreo cookie.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/necklace.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/home theater.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/airpods.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/travel bag.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="/img/shoe 1.jpg" class="d-block w-100" alt="img_from_the_11_stores"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="₦carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="₦carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/shoe 1.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦129,999 <span
+                    class="text-decoration-line-through fw-light">₦130,000</span></h5>
+              <p class="card-text mt-1 promo-hov">Pink Jules Graphic Print Italian
+              </p></a>
+              <p class="promo text-white">Up to 2% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/oreo cookie.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html"> ₦ 7,999 <span
+                    class="text-decoration-line-through fw-light"> ₦ 9,000</span></h5>
+              <p class="card-text mt-1 promo-hov"> Oreo Chocolate Sandwich Cookies
+              </p></a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col shadow-sm bg-white promo-hov">
+          <div class="card box-effect border-0 w-60">
+            <div class="text-center">
+              <img src="/img/travel bag.jpg" style="height: 60%;" width="60%" alt="img_from_the_11_stores">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> <a class="nav-link mt-2" href="/product.html">₦67,999 <span
+                    class="text-decoration-line-through fw-light">₦70,000</span></h5>
+              <p class="card-text mt-1 promo-hov">PU leather Duffel Bag Super...
+              </p></a>
+              <p class="promo text-white">Up to 5% off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-9">
+          <h4>Epic Holiday Deals</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-6 shadow-sm p-2 bg-white">
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/cake.webp" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦17,000 <span
+                  class="text-decoration-line-through fw-light">₦18,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Chocolate Cake with Strawberry Creamy Delicious</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/gown.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦2,000 <span
+                  class="text-decoration-line-through fw-light">₦2,900</span></h5>
+            <p class="card-text mt-1 promo-hov">Lingerie Night Wear Sexy Gown- Blue SPAG</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/duvet.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦20,999 <span
+                  class="text-decoration-line-through fw-light">₦22,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Duvet cover set of 3 with thin white striped</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/water gun.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦2200 <span
+                  class="text-decoration-line-through fw-light">₦3,000</span></h5>
+            <p class="card-text mt-1 promo-hov">Water Gun Squirt Guns High Capacity 2000CC</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/cream.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦4,000 <span
+                  class="text-decoration-line-through fw-light">₦6,500</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              E45 Dermatological Moisturising Lotion</p>
+          </a>
+        </div>
+        <div class="col box-effect p-2 align-self-center promo-hov">
+          <a class="nav-link mt-2" href="">
+            <div class="text-center">
+              <img class="rounded-2" src="/img/clipper.jpg" height="80%" width="80%">
+            </div>
+            <h5 class="card-title"> <a class="nav-link mt-2" href="">₦7,000 <span
+                  class="text-decoration-line-through fw-light">₦9,000</span></h5>
+            <p class="card-text mt-1 promo-hov">
+              Rechargeable Hair clipper</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mt-5 bg-warning">
+      <div class="row">
+				<div class="col text-center">
+          <h4 class="p-1">Trending Books</h4>
+        </div> 
+      </div>
+    </div>
+  </section> 
+  <section>
+    <div class="container bg-white shadow-sm">
+      <div class="row row-cols-md-6 row-cols-3 g-1">
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 1.jpg" >
+            </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 2.jpg" >
+            </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 7.jpg" >
+            </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 4.jpg" >
+            </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 6.jpg" >
+            </a>
+        </div>
+        <div class="col">
+          <a class="nav-link mt-2" href=""><img class="img-thumbnail" src="/img/book 3.jpg" height="100%" width="100%">
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- Footer -->
+
+<button id="mybtn" title="go to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+    class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+    <path
+      d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+  </svg>
+</button>
+
+
+<section class=" mt-5 pt-5" style="background-color: #010101;">
+  <div class="container text-white">
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col">
+        <h6>Hello there, The E11ven Stores would love to keep in touch.</h6>
+      </div>
+      <div class="col">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" style="background-color: white;" type="search" placeholder="Enter your email address" aria-label="Search">
+          <button class="btn shadow fw-bold" type="button">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4 py-4 text-white">
+    <div class="row row-cols-2 row-cols-md-4">
+      <div class="col">
+        <h5 class="">Get to Know Us</h5>
+        <a href="" class="nav-link">
+          <p class="">Careers</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Our News Letter</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>About Us</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Investors</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Branches</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Sustainability</p>
+        </a>
+      </div>
+      <div class="col">
+        <h5 class="">Make Money with Us</h5>
+        <a href="" class="nav-link">
+          <p>Sell Products on E11ven</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Supply to Us</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Become an Affiliate</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Become a Delivery Agent</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Self-Publish with Us</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>The E11ven Packages</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Become a Logistics Partner</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Become an Official</p>
+        </a>
+      </div>
+      <div class="col">
+        <h5 class="">Exclusives</h5>
+        <a href="" class="nav-link">
+          <p>Become a Sales Consultant</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Own an Official Store</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Manage our Store</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Promotional Agent</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Become Our Ambassador</p>
+        </a>
+      </div>
+      <div class="col">
+        <h5 class="">Let Us Help You</h5>
+        <a href="" class="nav-link">
+          <p>Covid 19 Package</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Your Account</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Your Orders</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Report a Seller</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Suggest Improvements</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Return and Replace</p>
+        </a>
+        <a href="" class="nav-link">
+          <p>Safety</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md ">
+        <h6 class="">Follow Us on Our Socials</h6>
+        <div>
+          <a href=""><img src="/img/ig svg.svg" width="2%" alt=""></a>
+          <a href="https://www.linkedin.com/in/ugochukwu-iroka-96a594232"><img src="/img/linkedin svg.svg" width="2%"
+              alt=""></a>
+          <a href=""><img src="/img/tiktok svg.svg" width="2%" alt=""></a>
+          <a href="https://twitter.com/Your_fav_oracle/photo"><img src="/img/twitter svg.svg" width="2%" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mx-auto">
+    <div class="footer-copyright py-2 text-center">
+      <p>&copy; 2022 <a href="#">The E11ven Stores.</a><a href="#" class="ms-3">Terms Of Use</a><a href="#"
+          class="ms-3">Privacy & Policy.</a> All Right Reserved</p>
+      <p class="fs-6">Designed & Developed by Iroka Ugo</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+</body>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.min.js"> </script>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"> </script>
+<script src="/bootstrap-5.2.0-dist/js/jquery-3.2.1.min.js"></script>
+<script>
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 20) {
+    $('#mybtn').fadeIn('slow');
+  }
+  else {
+    $('#mybtn').fadeOut('slow');
+  }
+});
+
+$('#mybtn').click(function () {
+  $('html,body').animate({ scrollTop: 0 }, "slow");
+  return false;
+})
+</script>
+
+</html>
