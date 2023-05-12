@@ -1,0 +1,321 @@
+body {
+    background-color: rgb(5, 152, 251, .1);
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.dropdown-item:hover {
+    color: #0598FB;
+    font-weight: bold;
+}
+
+.bg-white{
+    border-radius: 2px;
+    padding: 5px;
+}
+.bg-warning {
+    border-radius: 2px;
+}
+
+/* Button */
+.btn {
+    background-color: #0598FB;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #0386dd;
+    color: #fff;
+}
+.btn:focus {
+    background-color: #0598FB;
+    color: #e4e4e4;
+}
+/* Sec btn */
+.btn-sec {
+    color: #0598FB;
+    background-color: rgb(5, 152, 251, .1);
+}
+
+.search {
+    outline: 1px solid #0598FB;
+    border-radius: 20px;
+}
+
+.icon {
+    color: #0386dd;
+}
+.icon:hover {
+    color: #010101;
+}
+
+.search-btn {
+    margin-left: -73px;
+    background-color: #0598FB;
+    color: white;
+}
+.search-btn:hover {
+    background-color: #0386dd;
+    transition: ease-in-out .4s;
+}
+
+.primary-nav {
+    font-size: small;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.second-section {
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.hero-container {
+    margin-top: 3px;
+    background-color: #0386dd;
+}
+ 
+.hero-text {
+    padding-top: 50px;
+    padding-left: 115px;
+}
+
+.img-fluid-rounded {
+    height: 80px;
+    width: 80px;
+}
+
+.rounded {
+    width: 150px;
+    height: 150px;
+}
+
+.hover:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+.hover {
+    transition: transform.4s;
+} 
+
+/* Scoll Images */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.scroll {
+    width: 95%;
+    margin: 0 auto;
+    padding: 6px 10px 6px 10px;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+.box {
+    margin: 0px 5px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.box:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.box:focus {
+   color: #0598FB;
+}
+
+/* Scoll Images Mobile */
+.scroll-mobile::-webkit-scrollbar {
+    display: none;
+}
+.scroll-mobile {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.scroll-mobile {
+    width: 95%;
+    margin: 0 auto;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+.box-mobile {
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+
+.promo {
+    background-color: #0598FB;
+    padding: 3px;
+    width: auto;
+    display: inline;
+    border-radius: 2px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.box-effect:hover{
+    border-radius: 4px;
+    box-shadow: 4px 5px 15px #ccc;
+}
+
+.promo-hov:hover {
+    color: #0598FB;
+}
+
+.book-store {
+    width: 110%;
+    height: 100%;
+}
+
+/* Products */
+.star-2 {
+    font-size: small;
+    color: #0598FB;
+}
+.product-cart {
+    justify-content: center;
+}
+
+/* Cart */
+.icon {
+    margin-left: 600px;
+}
+
+/* Shoes */
+.rating {
+    color: #0598FB;
+}
+.cart {
+    background-color: #0598FB;
+    margin: 10px 0 10px;
+    width: 60%;
+}
+.box-effect:hover .cart {
+    color: #fff;
+}
+
+/* Account */
+.account:hover {
+    color: #0598FB;
+    font-weight: bold;
+}
+.active {
+    color: #0598FB;
+    font-weight: bold;
+}
+.input {
+    border: 1.4px solid black;
+}
+
+/* Scroll To Top */
+#mybtn {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    border: 1.5px solid #1A73E8;
+    border-radius: 200px;
+    cursor: pointer;
+    padding: 15px;
+    z-index: 99;
+    transition: .5s ease;
+    display: none;
+    margin: 2%;
+    background-color: #fff;
+}
+
+#mybtn:hover {
+    background-color: orange;
+}
+
+/* Checkout */
+.form__div {
+    height: 50px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.form-control {
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid #DADCE0;
+    border-radius: 0;
+    outline: none;
+    padding: 2px;
+    background: none;
+    z-index: 1;
+    box-shadow: none;
+}
+.form__label {
+    position: absolute;
+    left: 16px;
+    top: 10px;
+    background-color: #fff;
+    color: #80868B;
+    font-size: 16px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+.form-control:focus+.form__label {
+    top: -8px;
+    left: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10;
+}
+.form-control:not(:placeholder-shown).form-control:not(:focus)+.form__label {
+    top: -8px;
+    left: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10;
+}
+.form-control:focus {
+    border: 1.5px solid #1A73E8;
+    box-shadow: none;
+}
+
+/* Shoes */
+.nav-link:hover {
+    color: #0598FB;
+}
+.shoe-intro {
+    border-radius: 200px;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 400px;
+}
+
+/* Off Canva */
+.offcanvas-end {
+    max-width: 60%;
+    height: fit-content;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Start selling */
+.sell-div {
+    border-radius: 10px;
+    background-color: #0598FB;
+    color: white;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 800px){
+    .media { display: none;}
+    .no-mobile {display: none;}
+    .search-btn {display: none;}
+}
+
+@media only screen and (min-width: 800px){
+    .mobile { display: none;}
+}
